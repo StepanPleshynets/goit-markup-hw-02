@@ -1,0 +1,11 @@
+:root {
+--primari-text-color:#434455;
+--title-text-color:#2E2F42;
+--accent-color:#4D5AE5;}
+
+.menu{color: var(--title-text-color)}
+.adress{color: var(--primari-text-color)}
+
+.logo{color: red;}
+.logo:hover{color: aqua;}
+.logo:focus{color: aqua;}
