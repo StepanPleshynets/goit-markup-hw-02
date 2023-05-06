@@ -1,11 +1,20 @@
-:root {
---primari-text-color:#434455;
---title-text-color:#2E2F42;
---accent-color:#4D5AE5;}
+:root{
+    --primari-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --accent-color:#4D5AE5;
+    --White-color:White;}
+    
 
-.menu{color: var(--title-text-color)}
-.adress{color: var(--primari-text-color)}
+.header{color: var(--title-text-color);}
+.link{color: rebeccapurple;}
+.link:hover{color: red;}
+.link:focus{color: red;}
 
-.logo{color: red;}
-.logo:hover{color: aqua;}
-.logo:focus{color: aqua;}
+.studio{color: var(--title-text-color);}
+.portfolio{color: var(--title-text-color);}
+.contacts{color: var(--title-text-color);}
+
+.address:hover{color: red;}
+.address-mailto{color: var(--primari-text-color);}
+.address-tel{color: var(--primari-text-color);}
+.hero title{color: var(--title-text-color);}
