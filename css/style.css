@@ -8,8 +8,7 @@
 
     /* ховер, фокус */
 .address:hover {color: red;}
-.link:hover { color: red; }
-.link:focus { color: red; }
+
 
 /*main  */
 
@@ -24,7 +23,7 @@
     text-transform: uppercase;}
 
     /* SECTION-1 */
-    .list {list-style: none;}
+
 .studio {color: var(--title-text-color);}
 .portfolio {color: var(--title-text-color);}
 .contacts {color: var(--title-text-color);}
@@ -44,8 +43,15 @@ background: var(--title-text-color)}
 background: var(--title-text-color);}
 
 /* портфоліо */
-.link {color: gold;
-    text-decoration: none;}
+.link {color:var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16p;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration:none;
+    font-style: normal;}
+    .link:hover:focus{color: #404bbf;}
 .all {color: var(--filter-color);
 background: var(--accent-color);}
 .filter {color: var(--accent-color);
@@ -53,3 +59,9 @@ background: var(--filter-color);}
 .body {font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;}
+
+.list {font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
