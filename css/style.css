@@ -3,32 +3,38 @@
     --primari-text-color:#434455;
     --title-text-color:#2E2F42;
     --accent-color:#4D5AE5;
-    --footer-color;#F4F4FD;}
-    
+    --footer-color:#F4F4FD;
+    --filter-color:#E7E9FC;}
 
-.header{color: var(--title-text-color);}
-.link{color: rebeccapurple;}
-.link:hover{ color: red; }
-.link:focus{ color: red; }
+    /* ховер, фокус */
+.address:hover {color: red;}
+.link:hover { color: red; }
+.link:focus { color: red; }
+
 /*main  */
 .span {color: #4D5AE5;}
 .logo {color: var(--title-text-color);}
-.studio{color: var(--title-text-color);}
-.portfolio{color: var(--title-text-color);}
-.contacts{color: var(--title-text-color);}
-.address:hover{color: red;}
-.address-mailto{color: var(--primari-text-color);}
-.address-tel{color: var(--primari-text-color);}
+.studio {color: var(--title-text-color);}
+.portfolio {color: var(--title-text-color);}
+.contacts {color: var(--title-text-color);}
+.address-mailto {color: var(--primari-text-color);}
+.address-tel {color: var(--primari-text-color);}
 /* секція-1 */
-.hero title{color: var(--title-text-color);}
+.hero title {color: var(--title-text-color);}
 .btn {color: var(--title-text-color);
-    background-color: var(--accent-color);}
+     background-color: var(--accent-color);}
 .title {color:violet}
 .text {color: coral;}
 .name-team{color: green;}
-
 /* footer*/
-.text-footer{color:white; 
+.text-footer {color:#F4F4FD; 
 background: var(--title-text-color)}
-.logo-footer{color:#F4F4FD; 
+.logo-footer {color:#F4F4FD; 
 background: var(--title-text-color);}
+
+/* портфоліо */
+.link {color: gold;}
+.all {color: var(--filter-color);
+background: var(--accent-color);}
+.filter {color: var(--accent-color);
+background: var(--filter-color);}
