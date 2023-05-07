@@ -12,8 +12,19 @@
 .link:focus { color: red; }
 
 /*main  */
-.span {color: #4D5AE5;}
-.logo {color: var(--title-text-color);}
+
+/* LOGO */
+.span {color:var(--title-text-color);}
+.logo {color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+    /* SECTION-1 */
+    .list {list-style: none;}
 .studio {color: var(--title-text-color);}
 .portfolio {color: var(--title-text-color);}
 .contacts {color: var(--title-text-color);}
@@ -33,8 +44,12 @@ background: var(--title-text-color)}
 background: var(--title-text-color);}
 
 /* портфоліо */
-.link {color: gold;}
+.link {color: gold;
+    text-decoration: none;}
 .all {color: var(--filter-color);
 background: var(--accent-color);}
 .filter {color: var(--accent-color);
 background: var(--filter-color);}
+.body {font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;}
