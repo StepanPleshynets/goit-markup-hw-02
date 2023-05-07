@@ -56,6 +56,7 @@ background: var(--title-text-color);}
 background: var(--accent-color);}
 .filter {color: var(--accent-color);
 background: var(--filter-color);}
+
 .body {font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;}
