@@ -7,9 +7,7 @@
     --filter-color:#E7E9FC;
 }
 
-/*main  */
 
-/* LOGO */
 
 .link.logo{color:var(--accent-color);
     font-family: "Raleway", sans-serif;
@@ -23,10 +21,12 @@
 
     .link:hover{color: var(--accent-color);}
     .link:focus{color: var(--accent-color);}
+
+    .address{font-style: normal}
 /* секція-1 */
 .hero{background-color: var(--title-text-color);}
 
-.hero title {color:#ffffff;
+.hero.title {color:#ffffff;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -45,9 +45,11 @@
 
 .title {color: var(--title-text-color);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;}
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;}
 
 .minor{color: var(--title-text-color);
     font-size: 36px;
@@ -63,8 +65,9 @@
 .team{background-color: #F4F4FD;}
 
 .team-card{color: var(--title-text-color);
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -87,6 +90,8 @@ background: var(--title-text-color);}
     text-decoration:none;
     font-style: normal;}
 
+.link:hover:focus{color:#404bbf;}
+
 .all {color: var(--filter-color);
 background: var(--accent-color);}
 .filter {color: var(--accent-color);
@@ -96,10 +101,12 @@ background: var(--filter-color);}
 color: #434455;
 background-color: #FFFFFF;}
 
-.list {font-style:normal
+.list {background-color: #FFFFFF;
+    font-style:normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
+    
 }
 
 
